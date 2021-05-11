@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F11"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="A"
+        android:background="#F11"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="B"
+        android:background="#4CAF50"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="C"
+        android:background="#CDDC39"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="D"
+        android:background="#2196F3"
+        android:gravity="center">
+    </TextView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:background="#9C27B0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="A"
+        android:background="#FFEB3B"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="B"
+        android:background="#676773"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="C"
+        android:background="#9C27B0"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="D"
+        android:background="#492F77"
+        android:gravity="center">
+    </TextView>
+    
+</LinearLayout>
+
+
+<!--   <TextView-->
+<!--       android:layout_weight="1"-->
+<!--       android:background="#FFEB3B"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="match_parent"-->
+<!--       android:text="Hello"-->
+<!--       android:textSize="30sp"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Hello 2"-->
+<!--        android:background="#3F51B5"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Hello 3"-->
+<!--        android:background="#E91E63"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Hello 4"-->
+<!--        android:background="#009688"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+
+</LinearLayout>
